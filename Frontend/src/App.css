@@ -1,0 +1,25 @@
+@keyframes blink {
+    50% {
+        opacity: 0;
+    }
+}
+
+.blinking {
+    color: green;
+    font-weight: bold;
+    animation: blink 1s infinite;
+}
+html,body {
+    height: 100%;
+    margin: 0;
+}
+
+.container-fluid {
+    height: 100%;
+}
+.form-container {
+    max-height: 90vh;
+   
+    overflow-y: auto;
+    
+}
